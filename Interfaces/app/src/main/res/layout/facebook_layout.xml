@@ -27,7 +27,8 @@
             android:padding="5dp"
             android:src="@drawable/ic_round_search_24"
             android:background="@drawable/gray_background"
-            app:tint="#000"/>
+            app:tint="#000"
+            />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
@@ -184,13 +185,11 @@
                 app:layout_constraintTop_toTopOf="@id/icone_ondemand"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/semi_fab_margin">
-
             <ImageView
                 android:id="@+id/icone_notifications"
                 android:layout_width="wrap_content"
@@ -202,7 +201,6 @@
                 android:rotation="-10"
                 android:src="@drawable/ic_round_notifications_none_24"
                 app:layout_constraintTop_toTopOf="parent"/>
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="15dp"
@@ -246,5 +244,26 @@
         android:layout_height="1dp"
         android:background="#000"
         android:alpha=".2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/semi_fab_margin"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
 
+     >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_sick_24"
+            />
+        <ImageView
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bacground_recherche"
+            android:text="jhkffffyufty"/>
+
+    </LinearLayout>
 </LinearLayout>
